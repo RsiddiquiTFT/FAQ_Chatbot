@@ -1,0 +1,277 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - about
+  - no_employee
+  - org_structure
+  - geo
+  - sales_marketing
+  - vision_values
+  - brands
+  - products
+  - help
+  - thank
+  - os
+  - laptop
+  - it
+  - devices
+  - server
+  - cloud
+  - application
+  - data
+  - browsers
+  - antivirus
+  - vpn
+  - webhost
+  - mobility
+  # intents for applications
+  - hrms
+  - ticketing
+  - payroll 
+  - accounting_system
+  - ms_nav
+  - salesforce
+  - email_system
+  - one_drive
+  #inents for customer interface
+  - website
+  - ordering
+  - FAQ
+  - L1_support
+  - L2_support
+  - experience
+  - user_pardon
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you and I am yours JMATEK Assitant?"
+
+  utter_cheer_up:
+  - text: "okay keep it up and never give up"
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye See you soon"
+  
+  utter_thank:
+  - text: "welcome (: it's my pleasure"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by JMATEK."
+  
+  utter_about:
+  - text: "JMATEK is a multi-national company offering market-leading home comfort and energy efficiency products \n
+           The company was founded by Oriental American Jaima, an international business group established in 1928."
+  
+  utter_no_employee:
+  - text: "51-200 employees in +10 Countries"
+  
+  utter_org_structure:
+  - text: "JMATEK manufactures products that control your climate, Fairly flat - multiple locations."
+  
+  utter_geo:
+  - text: "Our employees are based in Hong Kong \n USA \n China \n India \n Mexico \n Panama \n Netherlands \n Indonesia \n Thailand "
+  
+  utter_sales:
+  - text: "We are B2B, but are planning to also get into B2C."
+  
+  utter_values:
+  - text: "Our Mission:\n
+            To provide innovative and energy efficient consumer products.\n
+            To inspire an attitude of optimism and happiness.\n
+            To create value and make a difference."
+                      
+  utter_brands:
+  - text: "Our Brands: \n
+            HONEYWELL\n
+            QUILO \n
+            BLUEMYST \n
+            MASON AND DECK"
+            
+  utter_products:
+  - text: "Our Products: \n
+            Evaporative Air Coolers \n
+            Portable Air Conditioners \n
+            Dehumidifiers"
+            
+  utter_help:
+  - text: "Contact Information:\n
+		United States\n
+		 usinfo@jmatek.com\n
+
+		Worldwide\n
+		 info@jmatek.com\n
+
+		Click here to hide contact info \n
+		United States\n
+		 1-800-474-2147\n
+		 usinfo@jmatek.com\n
+		9:00 AM to 5:00 PM (EST). Closed on Weekends and Public Holidays.\n
+
+		Canada\n
+		 1-800-474-2147\n
+		 canadainfo@jmatek.com\n
+		9:00 AM to 5:00 PM (EST). Closed on Weekends and Public Holidays.\n
+
+		Mexico\n
+		 52-55-5211-6813\n
+		 mxinfo@jmatek.com\n
+		 Chat 52-55-87927749\n
+		Europe\n
+		 (31)20-5207422\n
+		 support.eu@jmatek.com\n
+		Mon-Fri: 9:00 AM to 5:00 PM (UTC+2). Closed on Weekends and Public Holidays.\n
+
+		South America\n
+		 +54 11 4771 2178\n
+		 info@jmatek.com\n
+		Mon-Fri: 9:00 AM to 5:00 PM (UTC-3). Closed on Weekends and Public Holidays.\n
+
+		Singapore\n
+		Mayer Marketing\n
+		Honeywell Air Comfort Authorized Distributor\n
+		 +65 6542 8383\n
+		 mayer.enquiry@khind.com\n
+		Mon-Fri: 9:00 AM to 5:00 PM (UTC+8). Sat: 9:00 AM to 12:00 PM. Closed on Sun and Public Holidays.\n
+
+		Malaysia\n
+		Mayer Malaysia Sdn Bhd\n
+		Honeywell Air Comfort Authorized Distributor\n
+		 1800-88-0032\n
+		 mayermalaysia.inquiry@khind.com\n
+		Mon-Fri: 9:00 AM to 6:00 PM (UTC+8). Closed on Weekends and Public Holidays.\n
+
+		Indonesia\n
+		 +62 898-9898-928\n
+		 service@jmatek.co.id\n
+		Mon-Fri: 9:00 AM to 5:00 PM (UTC+7). Closed on Weekends and Public Holidays.\n
+
+		Australia\n
+		Sitro Group Australia\n
+		Honeywell Air Comfort Authorized Distributor\n
+		 +61 1300 174 876\n
+		 info@jmatek.com\n
+		Mon-Fri: 8:30 AM to 5:00 PM (AEST+10). Closed on Weekends and Public Holidays.\n
+
+		China & Other Asia Pacific Regions\n
+		 +88-600 80114 7031\n
+		 info@jmatek.com\n
+		Mon-Fri: 9:00 AM to 5:00 PM (UTC+8). Closed on Weekends and Public Holidays.\n
+
+		Taiwan\n
+		 +886 8 0114 7031\n
+		 info@jmatek.com\n
+		Mon-Fri: 9:00 AM to 5:00 PM (UTC+8). Closed on Weekends and Public Holidays.\n
+
+		India\n
+		 1800-103-3300\n
+		 wecare@hindware.co.in\n
+		Mon-Fri: 9:00 AM to 4:00 PM (UTC+5:30). Closed on Weekends and Public Holidays"
+
+  utter_os:
+  - text: "Catalina 10.15. 7 provides important security updates and bug fixes in :\n
+           Windows\n
+           Mac OS\n
+           Ubuntu"
+    
+  utter_laptop:
+  - text: "Yes, we provide laptops to the employees."    
+  
+  utter_it:
+  - text: "no one.  We have some part time IT people that are on call to help with challenges."   
+   
+  utter_devices:
+  - text: "Android & IOS"  
+  
+  utter_server:
+  - text: "We use godaddy/office 365 for most of our work (emails/file sharing/etc). All employees have OneDrive."  
+  
+  utter_cloud:
+  - text: "\n AWS \n Azure \n WP Engine \n Dropbox \n One Drive \n Google drive"  
+  
+  utter_application:
+  - text: "MS office \n Python IDLE \n MYSQL \n Chrome \n VS Code \n Mongo Compass" 
+  
+  utter_data:
+  - text: "All documents and Program files which are stored on laptops." 
+  
+  utter_browsers:
+  - text: "\n Chrome \n Firefox\n Edge."
+  
+  utter_antivirus:
+  - text: "Carbon black is a type of antivirus which protect our system."
+  
+  utter_vpn:
+  - text: "No We don't use VPN."
+  
+  utter_webhost:
+  - text: "As of Now we are using Godaddy platform for website hosting but soon we will change platform for hosting."
+  
+  utter_mobility:
+  - text: "Not yet."
+
+#------module: applications---------
+  utter_hrms:
+  - text: "None. Employee basic information and leave records are maintained in excel spreadsheets"
+
+  utter_ticketing:
+  - text: "No, we don't use any ticketing system"
+
+  utter_payroll:
+  - text: "Payroll is processed through excel except for North America where it is outsourced to Paychex"
+
+  utter_accounting:
+  - text: "NAV - Net Asset Value"
+
+  utter_ms_nav:
+  - text: "we have 30+ licences for Microsoft NAV"
+
+  utter_salesforce:
+  - text: "Two resources - Customer Relations Manager and Admin Manager are the main administrators,\nbut there is no truly experienced primary administrator managing SF currently in house (just basic functions). \nWe hired Cloud Creations to manage SF backend when needed."
+
+  utter_email:
+  - text: "Licence is Microsoft 365 access plan, number of subscribers 70+"
+
+  utter_one_drive:
+  - text: "OneDrive is used by the employees to store data"
+
+#-----------module: customer experience-----------
+
+  utter_website:
+  - text: "In North America, the website contact forms go to usinfo@Jmatek.com, which goes to salesforce as cases."
+
+  utter_ordering:
+  - text: "B2C: via our own ecomm websites (Myhomeclimate.com/honeywellaircomfort.com/quilohome.com/masonanddeck.com) or, \nvia our marketplace accounts (Amazon Seller Central, Walmart Seller Central, Homedepot.com seller)."
+
+  utter_faq:
+  - text: "Sorry, copy of FAQ is not available"
+
+  utter_L1_support:
+  - text: "L1 Support is not available"
+
+  utter_L2_support:
+  - text: "L2 Support is not available"
+
+  utter_experience:
+  - text: "Yes, smart mobile app or website bot that can troubleshoot/ provide support to customers instantly online, \nand provide up-selling services to increase sales with existing customers and perform consumer advocacy activities \n(eg: loyalty points, volume discounts, FAQ's, troubleshooting, parts ordering..etc.)"
+
+  utter_pardon:
+  - text: "Pardon me, please add details as well"
+
+  # utter_please_rephrase:
+  # - text: I'm sorry, I didn't quite understand that. Could you rephrase?
+                                                                
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
