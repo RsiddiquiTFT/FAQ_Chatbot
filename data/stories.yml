@@ -1,0 +1,168 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+#----------------- jmatek for Generals--------- 
+- story: business1
+  steps:
+  - intent: about
+  - action: utter_about
+  - intent: no_employee
+  - action: utter_no_employee
+- story: business2
+  steps:
+  - intent: org_structure
+  - action: utter_org_structure
+  - intent: geo
+  - action: utter_geo 
+- story: business3
+  steps:
+  - intent: sales_marketing
+  - action: utter_sales
+  - intent: vision_values
+  - action: utter_values
+- story: business4
+  steps:
+  - intent: brands
+  - action: utter_brands
+  - intent: products
+  - action: utter_products
+  
+- story: business5
+  steps:
+  - intent: help
+  - action: utter_help
+  - intent: thank
+  - action: utter_thank
+
+# -------Jmatake for IT----------
+- story: thank_os
+  steps:
+  - intent: os
+  - action: utter_os
+  
+- story: laptop_it
+  steps:
+  - intent: laptop
+  - action: utter_laptop
+  - intent: it
+  - action: utter_it
+  
+- story: devices_server
+  steps:
+  - intent: devices
+  - action: utter_devices
+  - intent: server
+  - action: utter_server
+  
+- story: cloud_application
+  steps:
+  - intent: cloud
+  - action: utter_cloud
+  - intent: application
+  - action: utter_application
+  
+- story: data_browsers
+  steps:
+  - intent: data
+  - action: utter_data
+  - intent: browsers
+  - action: utter_browsers
+  
+- story: antivirus_vpn
+  steps:
+  - intent: antivirus
+  - action: utter_antivirus
+  - intent: vpn
+  - action: utter_vpn
+  
+- story: webhost_mobility
+  steps:
+  - intent: webhost
+  - action: utter_webhost
+  - intent: mobility
+  - action: utter_mobility
+
+#-----------------based on jamtek docs-----------
+- story: jmatek application 1
+  steps:
+  - intent: hrms
+  - action: utter_hrms
+  - intent: ticketing
+  - action: utter_ticketing
+
+
+- story: jmatek application 2
+  steps:
+  - intent: payroll
+  - action: utter_payroll
+  - intent: accounting_system
+  - action: utter_accounting
+
+  
+- story: jmatek application 3
+  steps:
+  - intent: ms_nav
+  - action: utter_ms_nav
+  - intent: salesforce
+  - action: utter_salesforce
+
+- story: jmatek application 4
+  steps:
+  - intent: email_system
+  - action: utter_email
+  - intent: one_drive
+  - action: utter_one_drive
+
+#----------jamtek docs customer interface----------
+
+- story: jmatek customer interface 1
+  steps:
+  - intent: website
+  - action: utter_website
+  - intent: ordering
+  - action: utter_ordering
+
+- story: jmatek customer interface 2
+  steps:
+  - intent: FAQ
+  - action: utter_faq
+  - intent: L1_support
+  - action: utter_L1_support
+
+- story: jmatek customer interface 3
+  steps:
+  - intent: L2_support
+  - action: utter_L2_support
+  - intent: experience
+  - action: utter_experience
+
+
+  
